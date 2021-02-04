@@ -1,0 +1,41 @@
+section{
+    background-color: #353B40;
+    border-radius: 5px;
+    padding: 50px;
+
+}
+
+.input1{
+    border-radius: 5px;
+
+}
+
+h3{
+    color: white;
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+}
+
+.btn{
+    margin: 0px 5px;
+}
+
+.task{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.myBtn{
+    margin-left: 70px;
+}
+.myIn{
+    margin-right: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+

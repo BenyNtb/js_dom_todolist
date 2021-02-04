@@ -10,6 +10,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.6.0"
-  }
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenyNtb/js_dom_todolist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BenyNtb/js_dom_todolist/issues"
+  },
+  "homepage": "https://github.com/BenyNtb/js_dom_todolist#readme"
 }

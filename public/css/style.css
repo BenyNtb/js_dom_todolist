@@ -10,7 +10,7 @@ section{
 
 }
 
-h3{
+h2{
     color: white;
     justify-content: center;
     display: flex;
@@ -29,13 +29,60 @@ h3{
 
 .myBtn{
     margin-left: 70px;
+    display: flex;
 }
 .myIn{
     margin-right: 30px;
 }
 
-ul {
-    list-style-type: none;
+.todo-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-list{
+    min-width: 50%;
+    list-style: none;
+
+}
+.todo{
+    margin: 10px;
+    background: white;
+    color: black;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.todo-item{
+    flex: 1;
+    padding: 5px;
+}
 
+.supr-btn, .check-btn, .modifTache{
+    background-color: rgb(199, 46, 19);
+    color: white;
+    border: none;
+    margin-right: 1px;
+}
+.check-btn{
+    background-color: rgb(64, 134, 240);
+    border-right: 1px black solid;
+}
+.modifTache{
+    background-color: rgb(243, 225, 66);
+    color: black;
+}
+.fa-trash, .fa-check, .fa-edit{
+    pointer-events: none;
+}
+.done{
+    background-color: rgb(81, 183, 243);
+    color: white;
+}
+
+.mesBtn{
+    display: flex;
+}
